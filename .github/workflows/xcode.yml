@@ -11,9 +11,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run a one-line script
       run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+    - name: Echo variable
+      run: echo ${{ secrets.secretValue }}
     - name: Test xcode project
       run: xcodebuild test -scheme GithubActionsSample -destination "platform=iOS Simulator,name=iPhone 11"
