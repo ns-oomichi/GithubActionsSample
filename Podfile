@@ -13,3 +13,10 @@ target 'GithubActionsSample' do
   end
 
 end
+
+plugin 'cocoapods-keys', {
+  :project => 'GithubActionsSample',
+  :keys => [
+    'SampleValue',
+]}
+
