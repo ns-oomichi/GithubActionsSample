@@ -11,7 +11,7 @@ import XCTest
 @testable import GithubActionsSample
 
 class CalculatorTests: XCTestCase {
-    func funcSum2Vars() {
+    func testSum2Vars() {
         let calculator = Calculator()
         let actual = calculator.addInt(3, 4)
         XCTAssertEqual(7, actual)
