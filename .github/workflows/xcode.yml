@@ -13,5 +13,11 @@ jobs:
       run: echo Hello, world!
     - name: Echo variable
       run: echo ${{ secrets.secretValue }}
+    - name: Install cocoapods-keys
+      run: gem install cocoapods-keys
+    - name: Inject secrets
+      run: pod keys set SampleValue ${{ secrets.secretValue }}
+    - name: Generate signed source code
+      run: pod install
     - name: Test xcode project
-      run: xcodebuild test -scheme GithubActionsSample -destination "platform=iOS Simulator,name=iPhone 11"
+      run: xcodebuild test -workspace "GithubActionsSample.xcworkspace" -scheme GithubActionsSample -destination "platform=iOS Simulator,name=iPhone 11"
