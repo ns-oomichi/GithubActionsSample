@@ -15,5 +15,5 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    - name: Build xcode project
-      run: xcodebuild -sdk iphonesimulator -configuration Debug build
+    - name: Test xcode project
+      run: xcodebuild test -scheme GithubActionsSample -destination "platform=iOS Simulator,name=iPhone 11,OS=13.1"
