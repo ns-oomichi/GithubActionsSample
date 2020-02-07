@@ -14,4 +14,4 @@ jobs:
     - name: Echo variable
       run: echo ${{ secrets.secretValue }}
     - name: Test xcode project
-      run: xcodebuild test -scheme GithubActionsSample -destination "platform=iOS Simulator,name=iPhone 11"
+      run: xcodebuild test -workspace "GithubActionsSample.xcworkspace" -scheme GithubActionsSample -destination "platform=iOS Simulator,name=iPhone 11"
