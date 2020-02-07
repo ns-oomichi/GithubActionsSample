@@ -14,6 +14,8 @@
 		D753344023ECEAB700F1C1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D753343F23ECEAB700F1C1EA /* Assets.xcassets */; };
 		D753344323ECEAB700F1C1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D753344123ECEAB700F1C1EA /* LaunchScreen.storyboard */; };
 		D753344E23ECEAB700F1C1EA /* GithubActionsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753344D23ECEAB700F1C1EA /* GithubActionsSampleTests.swift */; };
+		D753345A23ECEBA900F1C1EA /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753345923ECEBA900F1C1EA /* CalculatorTests.swift */; };
+		D753345D23ECEC1C00F1C1EA /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753345C23ECEC1C00F1C1EA /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		D753344923ECEAB700F1C1EA /* GithubActionsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubActionsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D753344D23ECEAB700F1C1EA /* GithubActionsSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubActionsSampleTests.swift; sourceTree = "<group>"; };
 		D753344F23ECEAB700F1C1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D753345923ECEBA900F1C1EA /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
+		D753345C23ECEC1C00F1C1EA /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		D753343523ECEAB600F1C1EA /* GithubActionsSample */ = {
 			isa = PBXGroup;
 			children = (
+				D753345B23ECEC1200F1C1EA /* Lib */,
 				D753343623ECEAB600F1C1EA /* AppDelegate.swift */,
 				D753343823ECEAB600F1C1EA /* SceneDelegate.swift */,
 				D753343A23ECEAB600F1C1EA /* ViewController.swift */,
@@ -93,10 +98,27 @@
 		D753344C23ECEAB700F1C1EA /* GithubActionsSampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				D753345823ECEB9800F1C1EA /* Lib */,
 				D753344D23ECEAB700F1C1EA /* GithubActionsSampleTests.swift */,
 				D753344F23ECEAB700F1C1EA /* Info.plist */,
 			);
 			path = GithubActionsSampleTests;
+			sourceTree = "<group>";
+		};
+		D753345823ECEB9800F1C1EA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D753345923ECEBA900F1C1EA /* CalculatorTests.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		D753345B23ECEC1200F1C1EA /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D753345C23ECEC1C00F1C1EA /* Calculator.swift */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D753343B23ECEAB600F1C1EA /* ViewController.swift in Sources */,
+				D753345D23ECEC1C00F1C1EA /* Calculator.swift in Sources */,
 				D753343723ECEAB600F1C1EA /* AppDelegate.swift in Sources */,
 				D753343923ECEAB600F1C1EA /* SceneDelegate.swift in Sources */,
 			);
@@ -211,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D753344E23ECEAB700F1C1EA /* GithubActionsSampleTests.swift in Sources */,
+				D753345A23ECEBA900F1C1EA /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
