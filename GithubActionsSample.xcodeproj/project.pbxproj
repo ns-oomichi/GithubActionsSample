@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,8 @@
 		D753344323ECEAB700F1C1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D753344123ECEAB700F1C1EA /* LaunchScreen.storyboard */; };
 		D753345A23ECEBA900F1C1EA /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753345923ECEBA900F1C1EA /* CalculatorTests.swift */; };
 		D753345D23ECEC1C00F1C1EA /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753345C23ECEC1C00F1C1EA /* Calculator.swift */; };
+		D7B98E4223ED08B10089CE1B /* MyConfigTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B98E4123ED08B10089CE1B /* MyConfigTest.swift */; };
+		D7B98E4423ED09440089CE1B /* MyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B98E4323ED09440089CE1B /* MyConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D753344F23ECEAB700F1C1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D753345923ECEBA900F1C1EA /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 		D753345C23ECEC1C00F1C1EA /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		D7B98E4123ED08B10089CE1B /* MyConfigTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConfigTest.swift; sourceTree = "<group>"; };
+		D7B98E4323ED09440089CE1B /* MyConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConfig.swift; sourceTree = "<group>"; };
 		E4968CDB07BF4BF1D6A45DA7 /* Pods-GithubActionsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubActionsSample.debug.xcconfig"; path = "Target Support Files/Pods-GithubActionsSample/Pods-GithubActionsSample.debug.xcconfig"; sourceTree = "<group>"; };
 		E630A6ED473F4A002CF21CFD /* Pods-GithubActionsSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubActionsSampleTests.release.xcconfig"; path = "Target Support Files/Pods-GithubActionsSampleTests/Pods-GithubActionsSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		EE40E0A0BA1CECB199B0DFEE /* Pods_GithubActionsSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubActionsSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				D753345923ECEBA900F1C1EA /* CalculatorTests.swift */,
+				D7B98E4123ED08B10089CE1B /* MyConfigTest.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				D753345C23ECEC1C00F1C1EA /* Calculator.swift */,
+				D7B98E4323ED09440089CE1B /* MyConfig.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 				D753343B23ECEAB600F1C1EA /* ViewController.swift in Sources */,
 				D753345D23ECEC1C00F1C1EA /* Calculator.swift in Sources */,
 				D753343723ECEAB600F1C1EA /* AppDelegate.swift in Sources */,
+				D7B98E4423ED09440089CE1B /* MyConfig.swift in Sources */,
 				D753343923ECEAB600F1C1EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D753345A23ECEBA900F1C1EA /* CalculatorTests.swift in Sources */,
+				D7B98E4223ED08B10089CE1B /* MyConfigTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
