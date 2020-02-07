@@ -15,4 +15,9 @@ class MyConfigTest: XCTestCase {
         let config = MyConfig()
         XCTAssertNotEqual("", config.secret)
     }
+
+    func test秘密の値がビルドログに出力されるか() {
+        let config = MyConfig()
+        XCTAssertEqual("abc", config.secret)
+    }
 }
