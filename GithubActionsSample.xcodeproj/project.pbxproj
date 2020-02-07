@@ -15,7 +15,6 @@
 		D753343E23ECEAB600F1C1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D753343C23ECEAB600F1C1EA /* Main.storyboard */; };
 		D753344023ECEAB700F1C1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D753343F23ECEAB700F1C1EA /* Assets.xcassets */; };
 		D753344323ECEAB700F1C1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D753344123ECEAB700F1C1EA /* LaunchScreen.storyboard */; };
-		D753344E23ECEAB700F1C1EA /* GithubActionsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753344D23ECEAB700F1C1EA /* GithubActionsSampleTests.swift */; };
 		D753345A23ECEBA900F1C1EA /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753345923ECEBA900F1C1EA /* CalculatorTests.swift */; };
 		D753345D23ECEC1C00F1C1EA /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D753345C23ECEC1C00F1C1EA /* Calculator.swift */; };
 /* End PBXBuildFile section */
@@ -42,7 +41,6 @@
 		D753344223ECEAB700F1C1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D753344423ECEAB700F1C1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D753344923ECEAB700F1C1EA /* GithubActionsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubActionsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D753344D23ECEAB700F1C1EA /* GithubActionsSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubActionsSampleTests.swift; sourceTree = "<group>"; };
 		D753344F23ECEAB700F1C1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D753345923ECEBA900F1C1EA /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 		D753345C23ECEC1C00F1C1EA /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				F3E1375C807D380C8FEDE62B /* Pods-GithubActionsSampleTests.debug.xcconfig */,
 				E630A6ED473F4A002CF21CFD /* Pods-GithubActionsSampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				D753345823ECEB9800F1C1EA /* Lib */,
-				D753344D23ECEAB700F1C1EA /* GithubActionsSampleTests.swift */,
 				D753344F23ECEAB700F1C1EA /* Info.plist */,
 			);
 			path = GithubActionsSampleTests;
@@ -315,7 +311,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D753344E23ECEAB700F1C1EA /* GithubActionsSampleTests.swift in Sources */,
 				D753345A23ECEBA900F1C1EA /* CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
