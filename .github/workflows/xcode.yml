@@ -1,6 +1,6 @@
 name: build-xcode-project
 
-on: [push]
+on: [pull_request]
 
 jobs:
   build:
