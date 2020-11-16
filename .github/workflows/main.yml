@@ -1,4 +1,4 @@
-name: primary
+name: Run Primary
 
 on: [pull_request]
 
