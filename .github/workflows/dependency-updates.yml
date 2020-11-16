@@ -2,7 +2,7 @@ name: Run Dependency Updates
 
 on:
   schedule:
-    - cron: '25 23 * * *'
+    - cron: '45 23 * * 1'
 
 jobs:
   build:
