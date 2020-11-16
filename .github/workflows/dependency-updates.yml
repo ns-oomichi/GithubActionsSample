@@ -1,0 +1,28 @@
+name: Run Dependency Updates
+
+on:
+  schedule:
+    - cron: '8 23 * * 2'
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+    env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - name: setup-xcode
+      uses: maxim-lobanov/setup-xcode@v1.1
+      with:
+        xcode-version: latest-stable
+
+    - name: Run a scripts
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+        pwd
+        date
